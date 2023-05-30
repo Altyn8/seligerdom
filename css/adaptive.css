@@ -1,0 +1,140 @@
+@media only screen and (min-width: 1921px) {
+  #main, #reserve  {
+    background-size: cover;
+  }
+}    
+
+@media only screen and (max-width: 1199px) {
+    #main-header-phone {
+        margin-left: 0px;
+          
+  }
+
+  #main-header {
+    justify-content: space-between;
+  }
+
+  #main-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #cards-holder {
+    padding: 0 35px;
+    margin-left: 20px;
+  }
+
+  #photos {
+    padding: 20px;
+   
+  }
+
+  #texts {
+    padding: 0 35px;
+  }
+
+  #advants {
+    background-size: cover;
+   
+}
+
+#prices {
+  background-size: cover;
+}
+
+#price-title {
+  margin-left: 3px;
+} 
+
+#price-text {
+  margin-right: 24px;
+  
+ }
+
+#footer {
+  padding: 45px;
+}
+
+#footer-instagram, #footer-instagram span {
+  padding-right: 55px;
+}
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+    #main-header-phone {
+        margin-left: 0;
+        margin-right: 0;
+          
+  }
+  
+    #main-header-phone span {
+      font-size: 18px;
+      font-family: "Oranienbaum";
+      color: rgb(0, 0, 0);
+      margin-left: 0;
+    }
+
+    #reserve-title {
+        margin-bottom: 500px;
+        margin-top: 5920px;
+        margin-left: 320px;
+        font-size: 25px;
+        color: blue;
+    }
+
+    #footer-title {
+        width: 481px;
+        font-size: 20px;
+        font-family: "OpenSans";
+        margin-top: 6200px;
+        margin-left: 5px;
+    }
+
+    #footer-text {
+        font-size: 20px;
+        font-family: "OpenSans";
+        margin-left: 80px;
+    }
+
+    #footer-logo {
+        margin-top: 110px;
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #footer-title {
+        width: 481px;
+        font-size: 35px;
+        font-family: "OpenSans";
+        margin-top: 6120px;
+        margin-left: 17px;
+    }
+
+    #footer-text {
+        font-size: 100px;
+        font-family: "OpenSans";
+    }
+
+    #reserve-title {
+        margin-bottom: 500px;
+        margin-top: 5890px;
+        margin-left: 490px;
+        font-size: 25px;
+        color: blue;
+    }
+
+    #reserve-form input, #reserve-form button {
+        margin: 10px 0 0 0;
+    }
+
+    #reserve-form {
+        flex-wrap: wrap;
+    }
+
+    
+}
+   
+      
