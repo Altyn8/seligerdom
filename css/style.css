@@ -1,0 +1,358 @@
+@font-face {
+    font-family: "Oranienbaum";
+    src: url(fonts/Oranienbaum-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oranienbaum";
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+
+body {
+    margin: 0;
+    font-family: "Oranienbaum", 'san-serif';
+}
+
+#main {
+    background-image: url(bg.png);
+    background-size: 1920px 100%;
+    background-position: center;
+    height: 829px;
+}
+
+#main-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 43px;
+}
+
+#main-header {
+    display: flex;
+    align-items: center;
+}
+
+#main-header-phone {
+      margin-left: 930px;
+      color: black;
+        
+}
+
+#main-header-phone span {
+    font-size: 18px;
+    font-family: "Oranienbaum";
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+  }
+
+  .number {
+    color: black;
+  }
+  
+      
+#main-header-phone span,
+#main-header-phone img {
+    vertical-align: middle;
+}
+
+#main-content {
+    margin-top: 90px;
+    max-width: 330px;
+  
+}
+
+#main-title {
+  font-size: 55px;
+  font-family: "Oranienbaum";
+  color: rgb(50, 69, 95);
+ 
+  
+}
+    
+#left_text {
+    font-size: 20px;
+    font-family: "Oranienbaum";
+    color: rgb(50, 69, 95);
+    text-transform: uppercase;
+    
+}
+   
+#main-action {
+    margin-bottom: 230px;
+}
+
+.title {
+    font-size: 58.333px;
+    font-family: "Oranienbaum";
+    color: rgb(50, 69, 95);
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    left: 97.688px;
+    top: 954.75px;
+    width: 500px;
+    height: 101px;
+    z-index: 94;
+}
+
+#cards-holder {
+    display: flex;
+    justify-content: center;
+
+}
+
+#card {
+    width: 349px;
+    box-shadow: 10px 10px 10px 10px #00000014;
+    margin-right: 35px;
+    background-color: #fff;
+    margin-top: 80px;
+    background-color: #bbb7b7;
+    padding: 0px 10px;
+}
+
+#card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+#card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Oranienbaum";
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+#card-desc {
+    text-align: center; 
+    font-family: "KaiseiDecol-Bold";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#photos {
+    margin: 180px 0 118 0;
+    margin-top: 80px;
+    margin-left: 130px;
+    padding: 10px;
+}
+
+#photos-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#photos-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#texts {
+    margin-top: 50px;
+}
+
+#text-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#text {
+    justify-content: center;
+    display: flex;
+    font-family: "Oranienbaum";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#advants {
+    background-image: url(bg\ 1.png);
+    background-size: 1440px 570px;
+    background-position: center;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+#text-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+#text-title {
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: "Oranienbaum";
+    font-size: 25px;
+    font-weight: 400;
+    padding: 30px;
+    color: #fff;
+}
+
+#text-desc {
+    margin-left: 40px;
+    font-family: "Oranienbaum";
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+}
+
+#prices {
+    background-image: url(bg\ 2.png);
+    background-size: 1440px 800px;
+    height: 829px;
+    background-repeat: no-repeat;
+}
+
+#price-title {
+    font-size: 75px;
+    font-family: "Oranienbaum";
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-left: 650px;
+    padding: 145px;
+    text-transform: uppercase;
+} 
+
+#price-text {
+    font-size: 41.667px;
+    font-family: "Oranienbaum";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-left: 850px;
+    
+}
+
+#reserve {
+    background-image: url(bg\ reserve.png);
+    background-size: 1440px 577px;
+    background-position: center;
+    padding: 132px 0;
+}
+
+#reserve-container{
+    max-width: 1170;
+    margin: 0 auto;
+   
+}
+
+#reserve-title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Oranienbaum";
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+#reserve-desc {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 21px;
+    text-align: center;
+    max-width: 530px;
+    margin: 0 auto;
+    font-family: "Oranienbaum";
+    font-weight: 400;
+    
+}
+
+#reserve-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#reserve-form input {
+    border-width: 1px;
+    border-color: rgb(32, 46, 238);
+    border-style: solid;
+    background-color: rgb(221, 224, 228);
+    width: 199px;
+    height: 45px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+#reserve-form button {
+    height: 40px;
+    background-color: rgb(82, 82, 228);
+}
+
+#footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 25px 0;
+   
+}
+
+#footer {
+    background: #28437f;
+}
+
+#footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer-logo {
+    margin-left: 10px;
+}
+
+#footer-phone {
+    margin-left: 250px;
+    padding-top: 20px;
+}
+
+.num {
+    color: black;
+}
+
+
+#footer-phone span {
+    font-size: 18px;
+    font-family: "Oranienbaum";
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    
+}
+
+#footer-phone span,
+#footer-phone img {
+    vertical-align: middle;
+    
+    
+}
+
+#footer-instagram {
+    margin-left: 450px;
+   
+}
+
+#footer-instagram span {
+    font-size: 18px;
+    font-family: "Oranienbaum";
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+#footer-instagram span,
+#footer-instagram img {
+    vertical-align: middle;
+}
+
